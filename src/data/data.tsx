@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -69,18 +69,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Your Language Lounge`,
+  name: `Welcome to`,
+  nameSub: `Your Language Lounge`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        We are <strong className="text-stone-100">Your Language Lounge</strong>, currently working at{' '}
-        <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      <p className="mt-5 prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        We focus on real, <strong className="text-stone-100">student-centered</strong> communication in a{' '}
+        <strong className="text-stone-100">relaxed atmosphere</strong>, fostering{' '}
+        <strong className="text-stone-100">confidence</strong> and <strong className="text-stone-100">fluency</strong>.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      <p className="mb-5 prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        Join our community and experience <strong className="text-stone-100">the joy of learning English</strong> with
+        ease at Your Language Lounge!
       </p>
     </>
   ),

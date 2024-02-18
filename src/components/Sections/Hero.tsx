@@ -8,21 +8,24 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc, name, description, actions} = heroData;
+  const {imageSrc, name, nameSub, description, actions} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-full items-center justify-center">
-        <Image
-          alt={`${name}-image`}
-          className="absolute z-0 h-full w-full object-cover"
-          placeholder="blur"
-          priority
-          src={imageSrc}
-        />
+        <Image alt={`${name}-image`} className="absolute z-0 h-full w-full object-cover" priority src={imageSrc} />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">
-          <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
-            <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{name}</h1>
+          <div className="flex flex-col items-center gap-y-2 rounded-xl bg-gray-900/60 p-6 text-center">
+            <Image
+              alt={`${name}-image`}
+              className="justify-center z-10 "
+              height={100}
+              priority
+              src="/logo.png"
+              width={100}
+            />
+            <h1 className="text-3xl font-bold text-white sm:text-5xl lg:text-5xl">{name}</h1>
+            <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{nameSub}</h1>
             {description}
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />
