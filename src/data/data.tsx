@@ -336,28 +336,28 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Contact us today',
+  description: 'Ask us anything and we will get back to you as soon as we can.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'hello@langlounge.uk',
+      href: 'mailto:hello@langlounge.uk',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Nottingham, UK',
+      href: 'https://www.google.com/maps/place/Nottingham/@52.9540974,-1.2524624,12z/data=!3m1!4b1!4m6!3m5!1s0x487832d2390779cd:0x108063201919db15!8m2!3d52.9540223!4d-1.1549892!16zL20vMDl0bGg?entry=ttu',
+    },
+    {
+      type: ContactType.Facebook,
+      text: 'Your Language Lounge',
+      href: 'https://www.facebook.com/YourLanguageLoungeFB',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: '@your_language_lounge',
+      href: 'https://www.instagram.com/your_language_lounge/',
     },
   ],
 };
@@ -367,7 +367,7 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/YourLanguageLoungeFB'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/company/your-language-lounge/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/your_language_lounge/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/company/your-language-lounge/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/YourLangLounge'},
 ];
