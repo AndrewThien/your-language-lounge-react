@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
   BookOpenIcon,
   BuildingOffice2Icon,
   CalendarIcon,
@@ -46,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Your Language Lounge',
-  description: 'Relax - Sit back - Learn Language with us',
+  description: 'Relax - Sit back - Learn English with us',
 };
 
 /**
@@ -106,9 +105,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description1: `A lounge is a place you can sit down and relax before flights or important trips. You can do the same in Your Language Lounge. Here, a safe, enjoyable and friendly atmosphere where everyone can speak comfortably is one of our main goals while teaching.`,
+  description2: `Because we truly care about your progress, we apply a unique tracking system to our teaching program. A Two-Sided Report (TSR), which is proven as an effective way to enhance learning, will be provided every two months.`,
+  description3: `Our teachers also care about your needs, so your Language Lounge offers many course options for a reasonable fee. Especially, in the Customised course, you can tell us about the length of the course, or the number of sessions, or choose who to study with.`,
   aboutItems: [
     {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
