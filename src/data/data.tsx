@@ -359,6 +359,10 @@ export const contact: ContactSection = {
       text: '@your_language_lounge',
       href: 'https://www.instagram.com/your_language_lounge/',
     },
+    {
+      type: ContactType.Phone,
+      text: '+44 7565085822',
+    },
   ],
 };
 
