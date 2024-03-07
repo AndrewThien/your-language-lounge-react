@@ -23,7 +23,6 @@
     "react-hot-toast": "^2.4.1",
     "react-query": "^3.39.3",
     "resend": "^3.2.0",
-    "sharp": "^0.33.2",
     "ts-pattern": "^5.0.4"
   },
   "devDependencies": {
