@@ -14,17 +14,16 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/affordable.jpg';
+import porfolioImage8 from '../images/portfolio/assessment.jpg';
+import porfolioImage7 from '../images/portfolio/CELTA.jpg';
+import porfolioImage5 from '../images/portfolio/communicative.jpg';
+import porfolioImage2 from '../images/portfolio/confidence.jpg';
+import porfolioImage9 from '../images/portfolio/faceClass.webp';
+import porfolioImage3 from '../images/portfolio/facetoface.jpg';
+import porfolioImage10 from '../images/portfolio/freeDemo.png';
+import porfolioImage11 from '../images/portfolio/master.jpeg';
+import porfolioImage6 from '../images/portfolio/onlineClass.jpg';
 import profilepic from '../images/profilepicGif.gif';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -197,70 +196,56 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
+    title: 'Project title 11',
+    description:
+      'All of our teachers have Master Degree in Teaching English to Speakers of other languages. We offer you the best teaching quality',
+    image: porfolioImage11,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'CELTA',
+    description: 'All of our teachers are CELTA certified. Quality guaranteed!',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
+    title: 'You',
+    description: 'You and improving your English skills are our focus in the class. Nothing else!',
+    image: porfolioImage3,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Confidence Boosted',
+    description: 'Ours students have their confience in speaking English boosted. You can have it too.',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Communicative',
+    description:
+      'All of our lessons are communicative so many opportunities to speak and practice your English are always on the way',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Online classes',
+    description: 'We offer online classes to fit your busy schedule',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Offine classes',
+    description: 'We also offer offline classes with many sizes so you have more real-life interactions',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Free Pre-assessment and Reports',
+    description: 'Your English is assessed and monitored by our experienced teachers.',
+    image: porfolioImage8,
+  },
+  {
+    title: 'Free Demo Class',
+    description: 'Before committing to our courses, one free demo class is offered.',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'Affordable',
+    description: 'Our lessons are affordable so everyone can learn English in their ways',
+    image: porfolioImage1,
   },
 ];
 
