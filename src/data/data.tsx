@@ -22,7 +22,7 @@ import porfolioImage2 from '../images/portfolio/confidence.jpg';
 import porfolioImage9 from '../images/portfolio/faceClass.webp';
 import porfolioImage3 from '../images/portfolio/facetoface.jpg';
 import porfolioImage10 from '../images/portfolio/freeDemo.png';
-import porfolioImage11 from '../images/portfolio/master.jpeg';
+import porfolioImage11 from '../images/portfolio/master.jpg';
 import porfolioImage6 from '../images/portfolio/onlineClass.jpg';
 import profilepic from '../images/profilepicGif.gif';
 import testimonialImage from '../images/testimonial.webp';
