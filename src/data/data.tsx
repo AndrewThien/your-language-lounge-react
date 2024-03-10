@@ -16,7 +16,7 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/affordable.jpg';
 import porfolioImage8 from '../images/portfolio/assessment.jpg';
-import porfolioImage7 from '../images/portfolio/CELTA.jpg';
+import porfolioImage7 from '../images/portfolio/CELTA.png';
 import porfolioImage5 from '../images/portfolio/communicative.jpg';
 import porfolioImage2 from '../images/portfolio/confidence.jpg';
 import porfolioImage9 from '../images/portfolio/faceClass.webp';
@@ -54,7 +54,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Portfolio: 'Our Teaching',
   Courses: 'courses',
   Skills: 'skills',
   Stats: 'stats',
@@ -196,9 +196,8 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 11',
-    description:
-      'All of our teachers have Master Degree in Teaching English to Speakers of other languages. We offer you the best teaching quality',
+    title: 'Master degree',
+    description: 'All of our teachers have a Master Degree in Teaching English to Speakers of other languages.',
     image: porfolioImage11,
   },
   {
@@ -212,17 +211,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Confidence Boosted',
-    description: 'Ours students have their confience in speaking English boosted. You can have it too.',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Communicative',
-    description:
-      'All of our lessons are communicative so many opportunities to speak and practice your English are always on the way',
-    image: porfolioImage5,
-  },
-  {
     title: 'Online classes',
     description: 'We offer online classes to fit your busy schedule',
     image: porfolioImage6,
@@ -233,10 +221,16 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage9,
   },
   {
-    title: 'Free Pre-assessment and Reports',
-    description: 'Your English is assessed and monitored by our experienced teachers.',
-    image: porfolioImage8,
+    title: 'Confidence Boosted',
+    description: 'Ours students have their confience in speaking English boosted. You can have it too.',
+    image: porfolioImage2,
   },
+  {
+    title: 'Communicative',
+    description: 'You are guaranteed to have many opportunites to speak in our classes.',
+    image: porfolioImage5,
+  },
+
   {
     title: 'Free Demo Class',
     description: 'Before committing to our courses, one free demo class is offered.',
@@ -246,6 +240,11 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Affordable',
     description: 'Our lessons are affordable so everyone can learn English in their ways',
     image: porfolioImage1,
+  },
+  {
+    title: 'Free Pre-assessment and Reports',
+    description: 'Your English is assessed and monitored by our experienced teachers.',
+    image: porfolioImage8,
   },
 ];
 
