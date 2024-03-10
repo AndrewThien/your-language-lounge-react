@@ -54,11 +54,11 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'Our Teaching',
+  Portfolio: 'methods',
   Courses: 'courses',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Testimonials: 'reviews',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -196,13 +196,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Master degree',
+    title: 'Knowledge',
     description: 'All of our teachers have a Master Degree in Teaching English to Speakers of other languages.',
     image: porfolioImage11,
   },
   {
-    title: 'CELTA',
-    description: 'All of our teachers are CELTA certified. Quality guaranteed!',
+    title: 'Cambridge certified',
+    description: 'All of our teachers are CELTA certified and have hands-on experience in teaching English',
     image: porfolioImage7,
   },
   {
@@ -227,7 +227,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Communicative',
-    description: 'You are guaranteed to have many opportunites to speak in our classes.',
+    description: 'You are guaranteed to have many opportunities to speak in our classes.',
     image: porfolioImage5,
   },
 
