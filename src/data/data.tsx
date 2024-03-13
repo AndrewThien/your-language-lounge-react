@@ -54,7 +54,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'methods',
+  Portfolio: 'Our Teaching',
   Courses: 'courses',
   Skills: 'skills',
   Stats: 'stats',
@@ -253,14 +253,29 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
+    mode: 'Small Group',
+    price: '£10/hour',
+    title: 'Online Classes',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'March 2003',
+    price: 'School of Business',
+    title: 'What did you study 101',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+];
+
+export const education1: TimelineItem[] = [
+  {
+    mode: 'October 2015',
+    price: 'Nottingham college',
     title: 'Masters in Beer tasting',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
     date: 'March 2003',
-    location: 'School of Business',
+    price: 'School of Business',
     title: 'What did you study 101',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
@@ -268,8 +283,8 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
+    mode: 'March 2010 - Present',
+    price: 'Awesome Development Company',
     title: 'Senior UX Engineer',
     content: (
       <p>
@@ -279,8 +294,8 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
+    mode: 'March 2007 - February 2010',
+    price: 'Garage Startup Studio',
     title: 'Junior bug fixer',
     content: (
       <p>
