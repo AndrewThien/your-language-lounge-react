@@ -8,6 +8,7 @@ interface EmailTemplateProps {
   message: string;
 }
 
+export const runtime = 'edge';
 // eslint-disable-next-line react-memo/require-memo
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({name, email, phoneNumber, subject, message}) => (
   <div>
