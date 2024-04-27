@@ -26,6 +26,7 @@ export interface Hero {
   nameSub: string;
   description: JSX.Element;
   actions: HeroActionItem[];
+  actionShort: HeroActionItem[];
 }
 
 interface HeroActionItem {
@@ -89,10 +90,10 @@ export interface PortfolioItem {
  * Resume section
  */
 export interface TimelineItem {
-  date: string;
-  location: string;
   title: string;
   content: JSX.Element;
+  mode: string;
+  price:string;
 }
 
 /**

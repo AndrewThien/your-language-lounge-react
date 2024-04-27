@@ -97,6 +97,14 @@ export const heroData: Hero = {
       Icon: EnvelopeIcon,
     },
   ],
+  actionShort: [
+    {
+      href: `#${SectionId.Contact}`,
+      text: 'Contact Us',
+      primary: true,
+      Icon: EnvelopeIcon,
+    },
+  ],
 };
 
 /**
@@ -197,7 +205,8 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Knowledge',
-    description: 'All of our teachers have a Master Degree in Teaching English to Speakers of other languages.',
+    description:
+      'Teachers in Your Language Lounge obtained a Master Degree in Teaching English to Speakers of other languages.',
     image: porfolioImage11,
   },
   {
@@ -227,18 +236,18 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Communicative',
-    description: 'You are guaranteed to have many opportunities to speak in our classes.',
+    description: 'You are guaranteed to have many opportunities to practice speaking in our classes.',
     image: porfolioImage5,
   },
 
   {
     title: 'Free Demo Class',
-    description: 'Before committing to our courses, one free demo class is offered.',
+    description: 'Before committing to our courses, one free demo class is always offered.',
     image: porfolioImage10,
   },
   {
     title: 'Affordable',
-    description: 'Our lessons are affordable so everyone can learn English in their ways',
+    description: 'Our lessons are affordable so everyone can learn English in their ways.',
     image: porfolioImage1,
   },
   {
@@ -251,58 +260,84 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItem[] = [
+export const generalEnglish: TimelineItem[] = [
   {
     mode: 'Small Group',
-    price: '£10/hour',
+    price: '£8/hour',
     title: 'Online Classes',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    mode: 'March 2003',
-    price: 'School of Business',
-    title: 'What did you study 101',
+    mode: 'One to One',
+    price: '£17.5/hour',
+    title: 'Online classes',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'Small group',
+    price: '£10/hour',
+    title: 'Face to Face',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'One to One',
+    price: '£20/hour',
+    title: 'Face to Face',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
-export const education1: TimelineItem[] = [
+export const ieltsPrep: TimelineItem[] = [
   {
-    mode: 'October 2015',
-    price: 'Nottingham college',
-    title: 'Masters in Beer tasting',
+    mode: 'Small Group',
+    price: '£8/hour',
+    title: 'Online Classes',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    price: 'School of Business',
-    title: 'What did you study 101',
+    mode: 'One to One',
+    price: '£17.5/hour',
+    title: 'Online classes',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'Small group',
+    price: '£10/hour',
+    title: 'Face to Face',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'One to One',
+    price: '£20/hour',
+    title: 'Face to Face',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
-export const experience: TimelineItem[] = [
+export const bussinessEnglish: TimelineItem[] = [
   {
-    mode: 'March 2010 - Present',
-    price: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    mode: 'Small Group',
+    price: '£8/hour',
+    title: 'Online Classes',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    mode: 'March 2007 - February 2010',
-    price: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    mode: 'One to One',
+    price: '£17.5/hour',
+    title: 'Online classes',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'Small group',
+    price: '£10/hour',
+    title: 'Face to Face',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    mode: 'One to One',
+    price: '£20/hour',
+    title: 'Face to Face',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
