@@ -31,7 +31,7 @@ const Courses: FC = memo(() => {
       <div
         style={{
           border: '2px solid #4CAF50',
-          marginTop: '30px',
+          marginTop: '50px',
           borderRadius: '10px',
           backgroundColor: '#f2f2f2',
           padding: '10px',
@@ -40,7 +40,7 @@ const Courses: FC = memo(() => {
         <h3
           className="text-sm font-semibold text-black text-center md:text-lg md:text-center"
           style={{lineHeight: '1.7'}}>
-          <u>Notice:</u> <br />
+          <u>A small note</u> <br />
           If you can't find the course that suits you, please contact us. <br />
           We will try our best to accommodate your needs.
         </h3>

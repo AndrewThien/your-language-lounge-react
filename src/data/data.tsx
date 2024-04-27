@@ -397,6 +397,11 @@ export const contact: ContactSection = {
       type: ContactType.Phone,
       text: '+44 7565085822',
     },
+    {
+      type: ContactType.Whatsapp,
+      text: 'Tap to chat on Whatsapp',
+      href: "https://wa.me/447514288028?text=Hi.%20I'm%20inquiring%20about%20Your%20Language%20Lounge",
+    },
   ],
 };
 
