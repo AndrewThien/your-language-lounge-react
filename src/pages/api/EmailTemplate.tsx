@@ -20,9 +20,9 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({name, ema
         Name: {name}, Email: {email}, Phone Number: {phoneNumber},<p>contacting you with the message below:</p>
       </p>
     </p>
-    <h4 style={{textDecoration: 'underline'}}>Subject:</h4>
+    <h4 style={{textDecoration: 'underline'}}>Subject</h4>
     <p> {subject}</p>
-    <h4 style={{textDecoration: 'underline'}}>Enquiry Content:</h4>
+    <h4 style={{textDecoration: 'underline'}}>Enquiry Content</h4>
     <p>{message}</p>
   </div>
 );
