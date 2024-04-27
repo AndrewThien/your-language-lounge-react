@@ -114,7 +114,6 @@ const ContactForm = () => {
         placeholder="Message"
         required
         rows={7}
-        type="text"
         value={message}
       />
       <button
