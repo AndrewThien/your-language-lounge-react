@@ -262,82 +262,79 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const generalEnglish: TimelineItem[] = [
   {
-    mode: 'Small Group',
-    price: '£8/hour',
-    title: 'Online Classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    mode: 'Online Classes (Subject to availability)',
+    price: '£7/hour',
+    title: 'Small Group',
+    content: (
+      <p>
+        Experience a comfortable and relaxed atmosphere while learning ESOL in our Small Group online classes. Benefit
+        from the collective knowledge of experienced and qualified teachers, and engage in stimulating discussions with
+        fellow learners.
+      </p>
+    ),
   },
   {
-    mode: 'One to One',
+    mode: 'Online classes',
     price: '£17.5/hour',
-    title: 'Online classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'Small group',
-    price: '£10/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'One to One',
-    price: '£20/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    title: 'One to One',
+    content: (
+      <p>
+        Boost your English communication skills with our One to One class. Get personalized attention in a relaxed
+        setting, and learn at your own pace with our experienced teachers at Your Language Lounge.
+      </p>
+    ),
   },
 ];
 
 export const ieltsPrep: TimelineItem[] = [
   {
-    mode: 'Small Group',
+    mode: 'Online Classes (Subject to availability)',
     price: '£8/hour',
-    title: 'Online Classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    title: 'Small Group',
+    content: (
+      <p>
+        Get ready for your IELTS with our Small Group class. In a relaxed and supportive environment, our experienced
+        teachers will guide you through key strategies and skills needed for the test. Join us and let's ace IELTS
+        together!
+      </p>
+    ),
   },
   {
-    mode: 'One to One',
-    price: '£17.5/hour',
-    title: 'Online classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'Small group',
-    price: '£10/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'One to One',
-    price: '£20/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    mode: 'Online classes',
+    price: '£18.5/hour',
+    title: 'One to One',
+    content: (
+      <p>
+        Prepare for your IELTS in a focused, one-to-one setting. Our experienced teachers will provide personalized
+        strategies and feedback to help you excel. Enjoy the relaxed atmosphere of Your Language Lounge while you gear
+        up for success!
+      </p>
+    ),
   },
 ];
 
 export const bussinessEnglish: TimelineItem[] = [
   {
-    mode: 'Small Group',
-    price: '£8/hour',
-    title: 'Online Classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    mode: 'Online Classes (Subject to availability)',
+    price: '£7/hour',
+    title: 'Small Group',
+    content: (
+      <p>
+        Cultivate effective communication skills in a relaxed and supportive atmosphere, where you'll thrive in a
+        dynamic learning environment tailored to your professional needs.
+      </p>
+    ),
   },
   {
-    mode: 'One to One',
+    mode: 'Online classes',
     price: '£17.5/hour',
-    title: 'Online classes',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'Small group',
-    price: '£10/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    mode: 'One to One',
-    price: '£20/hour',
-    title: 'Face to Face',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    title: 'One to One',
+    content: (
+      <p>
+        Dive into a comfortable online atmosphere where personalized attention meets effective communication skills
+        development. Elevate your professional language proficiency in an environment designed just for you.
+      </p>
+    ),
   },
 ];
 

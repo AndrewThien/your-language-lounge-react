@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+import {BadgeAlert} from 'lucide-react';
 import {FC, memo} from 'react';
 
 import {bussinessEnglish, generalEnglish, heroData, ieltsPrep, SectionId} from '../../../data/data';
@@ -39,9 +40,14 @@ const Courses: FC = memo(() => {
         }}>
         <h3
           className="text-sm font-semibold text-black text-center md:text-lg md:text-center"
-          style={{lineHeight: '1.7'}}>
-          <u>A small note</u> <br />
-          If you can't find the course that suits you, please contact us. <br />
+          style={{lineHeight: '1.8'}}>
+          <span style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <u>Please Note</u>
+            <span style={{display: 'inline-block'}}>
+              <BadgeAlert className="ml-2" />
+            </span>
+          </span>{' '}
+          If you can't find the course that suits you, kindly contact us. <br />
           We will try our best to accommodate your needs.
         </h3>
         <div className="flex mt-2 w-full justify-center gap-x-4">

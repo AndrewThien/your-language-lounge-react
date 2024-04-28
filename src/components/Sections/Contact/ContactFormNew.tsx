@@ -32,10 +32,10 @@ const ContactForm = () => {
       }),
     {
       onSuccess: () => {
+        window.scrollTo(0, 0);
         toast.success('Your enquiry is sent successfully');
       },
       onError: () => {
-        console.error('Error adding collection');
         toast.error('Error sending your enquiry');
       },
     },
@@ -118,7 +118,7 @@ const ContactForm = () => {
       />
       <button
         aria-label="Submit contact form"
-        className="flex w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800"
+        className="flex w-max rounded-full border-2 border-orange-600 bg-stone-900 px-4 py-2 text-sm font-medium text-white shadow-md outline-none hover:bg-stone-800 focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 focus:ring-offset-stone-800 mx-auto"
         type="submit">
         Send Message <Send className="ml-2" />
       </button>
