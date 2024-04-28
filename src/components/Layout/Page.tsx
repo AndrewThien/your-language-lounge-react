@@ -13,7 +13,13 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
       <Head>
         <title>{title}</title>
         <meta content={description} name="description" />
-
+        <meta
+          content="ESOL classes, Learning English in Nottingham, Nottingham, ESOL, IELTS, Business English, Learning English, Speaking Classes, IELTS in Nottingham, English"
+          name="keywords"
+        />
+        <meta content="index, follow" name="robots" />
+        <meta content="AndrewThien" name="author" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://langlounge.uk${pathname}`} key="canonical" rel="canonical" />
 
