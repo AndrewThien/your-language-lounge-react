@@ -345,19 +345,16 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Thuy - Vietnamese',
+      text: 'I absolutely loved the General Communicative English course at Your Language Lounge! The interactive sessions and supportive atmosphere helped me improve my English skills effortlessly. The instructors were amazing, making each lesson enjoyable and effective.',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Amina - Moroccan',
+      text: 'The IELTS prep course at Your Language Lounge was fantastic! The instructors were dedicated and provided invaluable insights into the exam format. With their help, I felt well-prepared and confident on exam day. Thanks to them, I achieved the score I needed!',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Cora - Greek',
+      text: 'The Business English course at Your Language Lounge exceeded my expectations! The personalized attention in the one-to-one setting was invaluable.',
     },
   ],
 };
@@ -371,14 +368,14 @@ export const contact: ContactSection = {
   description: 'Ask us anything and we will get back to you as soon as we can.',
   items: [
     {
-      type: ContactType.Email,
-      text: 'hello@langlounge.uk',
-      href: 'mailto:hello@langlounge.uk',
-    },
-    {
       type: ContactType.Location,
       text: 'Nottingham, UK',
       href: 'https://www.google.com/maps/place/Nottingham/@52.9540974,-1.2524624,12z/data=!3m1!4b1!4m6!3m5!1s0x487832d2390779cd:0x108063201919db15!8m2!3d52.9540223!4d-1.1549892!16zL20vMDl0bGg?entry=ttu',
+    },
+    {
+      type: ContactType.Email,
+      text: 'hello@langlounge.uk',
+      href: 'mailto:hello@langlounge.uk',
     },
     {
       type: ContactType.Facebook,
