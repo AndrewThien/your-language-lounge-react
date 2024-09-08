@@ -43,7 +43,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Your Language Lounge',
+  title: 'Your Language Lounge - Learning English with Ease',
   description: 'English Classes in Nottingham. Online Language School. IELTS prepration courses. ESOL classes.',
 };
 
