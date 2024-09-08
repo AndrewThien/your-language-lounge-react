@@ -44,8 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Your Language Lounge',
-  description:
-    'Relax - Sit back - Learn English with us. English Classes in Nottingham. Online Language School. IELTS prepration courses. ESOL classes',
+  description: 'English Classes in Nottingham. Online Language School. IELTS prepration courses. ESOL classes.',
 };
 
 /**
